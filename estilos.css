@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+background: #4b8a20;
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+}
+
+
+#contenido{
+    width: 2000px;
+    height: 900px;
+    background-color: rgb(23, 204, 99);
+}
+
+/*Menu*/
+
+.menu-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    overflow: hidden;
+    background-color:#333333;
+}
+
+.menu-li {
+    float: left;
+}
+
+.menu-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+.menu-li a:hover {
+    background-color: #5F337D;
+}
+
+/*Imagen Xatala*/
+.imagen{
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+}
+
+/* Submenu */
+.submenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    overflow: hidden;
+    background-color:#333333;
+}
+
+.menu-sub {
+    float: left;
+}
+
+.menu-sub a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+.menu-sub a:hover {
+    background-color: #5F337D;
+}
+
+
+
+
+/*texto h1*/
+
+.encabezado{
+    text-align: center;
+    height: 100px;
+    width: 400px;
+}
+
+/*texto p*/
+
+main > aside > article > h1{
+    text-align: center;
+    height: 100px;
+    width: 500px;
+}
+
+article p{
+    text-align: center;
+    height: 20px;
+    width: 600px;
+}
+
+.parrafo{
+    text-align: center;
+    height: 100px;
+    width: 500px;
+}
+
+/*Imagen*/
+
+
+article img{
+width: 350px;
+height: 150px;
+justify-content: center;
+display: block;
+}
+
+
+/*Tabla*/
+
+.container{
+    justify-content: center;
+    background-color:lightblue ;
+    color: black;
+    border: solid 1px lightblue;
+    width: 500px;
+    height: 80px;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 15px;
+}
+
+th{
+    text-align: left;
+}
+
+/*Separacion de cuadrados*/
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 6 / 2; }
+    .div2 { grid-area: 1 / 2 / 6 / 3; }
+
+
+    /* Redes Sociales Iconos*/
+    .twitter{
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .facebook{
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .youtube{
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .telegram{
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .redes{
+        height: 100px;
+        justify-content: flex;
+    }
+
+
+    /*Imagenes recomendado*/
+
+    .noticia{
+        float: right;
+        display: flex;
+        width: 50px;
+        height: 100px;
+        justify-content: right;
+    }
+
+
+    /*div2*/
+
+    .div1 {
+        grid-column: span 1;
+        justify-content: left;
+    }
+
+
+#recomendados { grid-area: 1 / 2 / 6 / 3; }
